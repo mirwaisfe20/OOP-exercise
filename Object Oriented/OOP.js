@@ -1,5 +1,5 @@
-/* object in javascript */
-/* const customer = {
+ /* object in javascript */
+ const customer = {
     name: 'Bianca',
     lastName: 'Johnsoon',
     email: 'bianca_johnsson@gmail.com',
@@ -12,10 +12,10 @@
         country: 'USA'
     }
 }
- */
+ 
 
 /* Object Oriented in javascript */
-/* const customerX = {
+ const customerX = {
     name: 'Bianca',
     lastName: 'Johnsoon',
     email: 'bianca_johnsson@gmail.com',
@@ -28,6 +28,7 @@
         country: 'USA'
     }
 }
+
 const customerY = {
     name: 'Bianca',
     lastName: 'Johnsoon',
@@ -40,7 +41,7 @@ const customerY = {
         state: 'Cali',
         country: 'USA'
     }
-} */
+} 
 /* javascript class before es 2015 */
 function Customer(name, last, email, phone, address){
      this.name = name,
@@ -79,6 +80,7 @@ function Order(menu, drink, fries){
     this.drink = drink;
     this.fries = fries;
 }
+
 
 
 const order3 = new Order('chieken BBQ', 'coffee', 'american fries');

@@ -6,3 +6,8 @@
    and finally show the result in the DOM
 */
 
+
+function Ul(){
+    this.ul = document.createElement('ul')
+}
+
